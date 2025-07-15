@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sectionleft{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    width: 15%;
+}
+.pic{
+    height:150px ;
+}
+hr{
+    height:3px ;
+    margin: 10px 0;
+    background-color: rgb(255, 244, 244);
+    width:70%;
+    transform: translateX(+20px);
+    border: none;
+}
+.links{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  color: white;
+    padding-top:15px;
+
+}
+.link1{
+    padding-left:53px ;
+    text-decoration: none;
+ color: white;
+}
+.link2{
+    padding-left:27px ;
+    text-decoration: none;
+     color: white;
+
+}
+.link3{
+    padding-left:31px ;
+    text-decoration: none;
+     color: white;
+}
+.link4{
+    padding-left: 48px;
+    text-decoration: none;
+    color: white;
+}
+.link5{
+    padding-left:18px;
+    text-decoration: none;
+    color: white;
+}
+.link6{
+    padding-left: 39px;
+     color: white;       
+     padding-bottom: 20px;
+}
+.buttons{
+   padding-top: 50px;
+   padding-left: 35px;
+}
+.btn1{
+    width:25px ;
+    background-color: rgb(175, 60, 60);
+    color: antiquewhite;
+    height:25px;
+    border-color: white;
+    background-color: black;
+}
+.btn2{
+ width:25px ;
+    background-color: rgb(175, 60, 60);
+    color: antiquewhite;
+    height:25px;
+    border-color: white;
+    background-color: black;
+}
+.btn3{
+ width:25px ;
+    background-color: rgb(175, 60, 60);
+    color: antiquewhite;
+    height:25px;
+    border-color: white;
+    background-color: black;
+}
+.footer{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
