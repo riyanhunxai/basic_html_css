@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .bg_origin {
+            background-image: url('../../images/4.png');
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+            width: 40%;
+            border: 10px dotted red;
+            background-origin: content-box;
+            /* background-clip: ; */
+        }
+
+        .bg {
+            background-image: url('../../images/4.png');
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+        }
+
+        .bg1 {
+            /* background-image: url('../../images/4.png'), linear-gradient(to right bottom, red, blue, green); */
+            background-image: url('../../images/4.png'), linear-gradient(160deg, red, blue, green);
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+            width: 60%;
+            /* background-color: aqua; */
+            background-blend-mode: multiply;
+            /* background:; */
+
+        }
+
+        .bg_attachment {
+            background-image: url('../../images/4.png');
+            /* background: linear-gradient(red, blue, green); */
+            height: 80vh;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>background properties</h4>
+    <div class="bg_origin"></div>
+
+    <div class="bg_attachment">
+        <h4>Lorem ipsum dolor sit.</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="bg"></div>
+    <div class="bg1"></div>
+
+
+</body>
+</html>
