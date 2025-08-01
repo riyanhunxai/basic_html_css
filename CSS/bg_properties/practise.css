@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.bg_image{
+    background-image: url('../../pics/Engine\ Belts.jpg');
+    height:80vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px,dashed,red;
+    background-origin: content-box;
+    background-attachment: fixed;
+
+}
+.bg1{
+    background-image: url('../../pics/photo-1584126996504-1ab0026f42d1.jpeg');
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+}

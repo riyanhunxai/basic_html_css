@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #parent1 {
+  position: static;
+  border: 1px solid red;
+  width: 300px;
+  height: 100px;
+  background-color: aqua;
+  
+}
+
+
+
+#parent2 {
+  position: relative;
+  border: 1px solid red;
+  width: 300px;
+  height: 100px;
+  background-color: green;
+}
+
+
+
+#parent3 {
+  position:absolute;
+  border: 1px solid blue;
+  width: 300px;
+  height: 100px;
+  top: 750px;
+  right: 15px;
+
+  background-color: brown;
+}
+
+
+
+#parent4 {
+  position: fixed;
+  border: 1px solid blue;
+  background-color: rgba(255,200,200,0.5);  
+  width: 300px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#parent5{
+     position:sticky;
+  border: 1px solid blue;
+  background-color: rgba(255,200,200,0.5);  
+  width: 300px;
+  height: 50px;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>P0SITI0N PR0PERTIES</h1>
+
+<div id="parent1">
+ <h2>position static</h2>
+</div>
+<br>
+
+
+<div id="parent2">
+  <h2>position relative</h2>
+</div>
+
+
+
+<div id="parent3">
+  <h2>position absolute</h2>
+</div>
+
+
+
+<div id="parent4">
+   <h3>positionfixed</h3>
+</div>
+
+
+<div id="parent5">
+    <h2>position sticky</h2>
+</div>
+</body>
+</html>
