@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+    xl 1400px
+    lg large screen  992px - 1200px
+    
+    , md -> 768px 
+    
+    , sm -> 576px
+    ,xs -> 
+    bootdtrap xxl,xxs
+    
+    -->
+
+    <div class="card">
+        <h3>Lorem, ipsum.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <a href="example.com"> click me </a>
+    </div>
+
+    <style>
+        .card {
+            background-color: aqua;
+            border: 1px solid;
+            width: 40%;
+            padding: 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.04) ;
+        }
+        .card p {
+            font-size: 30px;
+        }
+
+        body{
+            background-color: rgb(115, 114, 114);
+        }
+
+        /* @media (max-width: 992px) {
+            body{
+                background-color: red;
+            }
+        } */
+          @media (max-width: 992px) and (min-width:768px ) {
+            body{
+                background-color: red;
+            }
+            .card p{
+                font-size: 20px;
+            }
+        }
+        @media (max-width: 767px ) and (min-width: 340px) {
+             .card p{
+                font-size: 16px;
+            }
+        }
+    </style>
+
+</body>
+</html>
